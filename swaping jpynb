@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyO593IMKPSI8morZ0BTsNIp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/poojamanhas/machine-learning/blob/main/swaping%20jpynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "znjUMWrcjwWu"
+      },
+      "outputs": [],
+      "source": [
+        "# write a program to swap to variable "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Python program to swap two variables\n",
+        "\n",
+        "x = 5\n",
+        "y = 10\n",
+        "\n",
+        "# To take inputs from the user\n",
+        "#x = input('Enter value of x: ')\n",
+        "#y = input('Enter value of y: ')\n",
+        "\n",
+        "# create a temporary variable and swap the values\n",
+        "temp = x\n",
+        "x = y\n",
+        "y = temp\n",
+        "\n",
+        "print('The value of x after swapping: {}'.format(x))\n",
+        "print('The value of y after swapping: {}'.format(y))\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I9-_FcD8kPMz",
+        "outputId": "09b59de8-967a-4ac2-c5f3-8a7e8ea625db"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The value of x after swapping: 10\n",
+            "The value of y after swapping: 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = int(input (\"Enter the number of which the user wants to print the multiplication table: \"))      \n",
+        "# We are using \"for loop\" to iterate the multiplication 10 times       \n",
+        "print (\"The Multiplication Table of: \", number)    \n",
+        "for count in range(1, 11):      \n",
+        "   print (number, 'x', count, '=', number * count)    "
+      ],
+      "metadata": {
+        "id": "rvUeos_0lMPi"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
